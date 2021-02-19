@@ -49,15 +49,13 @@ hr {
   padding: 0.8rem 2rem;
 }
 
-.btn:hover {
+.btn:hover, .btn-primary:focus, .btn-primary:active {
   transform: scale(1.05);
   color: black;
-  background-color: rgb(255, 253, 120);
-  border-color:rgb(255, 253, 120);
+  background-color: rgb(255, 251, 44);
+  border-color: rgb(255, 251, 44);
 }
 
 .btn-primary:focus, .btn-primary:active {
-  color: black;
-  background-color: rgb(255, 253, 120);
-  border-color:rgb(255, 253, 120);
+  box-shadow: none !important;
 }
